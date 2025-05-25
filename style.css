@@ -44,51 +44,36 @@
 
 	/* Preview Auto Scroll Cards */
 
-	.preview-card {
-  position: relative;
-  width: 300px;
-  height: 200px;
-  overflow: hidden;
-  border: 1px solid black;
-  background-color: #f8f8f8;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+	    .preview-card {
+	      width: auto;
+	      height: 500px;
+	      overflow: hidden;
+	      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+	      border: 1px solid #ddd;
+	      background: #fff;
+	      position: relative;
+	      cursor: pointer;
+	      display: flex;
+	      justify-content: center;
+	    }
 
-/* Live preview iframe inside preview card */
-.preview-card .template-preview {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 800px; /* enough to scroll */
-  border: none;
-  pointer-events: none; /* allow hover and click passthrough */
-  transition: transform 5s ease-out;
-}
+	    .template-preview {
+	      width: 100%;
+	      height: 1000px; /* The full length of the landing page */
+	      overflow: hidden;
+	      position: absolute;
+	      top: 0;
+	      /** transition: transform 5s ease-out 1s; /* Slower and smoother transition */ 
+	    }
 
-/* Scroll preview on hover */
-.preview-card:hover .template-preview {
-  transform: translateY(-600px);
-}
-
-/* Label overlay inside preview cards only */
-.preview-card .websites {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  font-weight: bold;
-  font-size: 1rem;
-  text-align: center;
-  padding: 8px 0;
-  pointer-events: none;
-  z-index: 1;
-}
-
+	    .preview-card .template-preview {
+	      transition: transform 5s ease-out; /* smooth return with no delay */
+	    }
+	    
+	    .preview-card:hover .template-preview {
+	      transform: translateY(-500px); /* Moves up with a slower effect */
+	      transition: transform 5s ease-out 1s; /* 1s delay only on hover in */
+	    }
 
 	/* Modal styles */
 	#modal {
