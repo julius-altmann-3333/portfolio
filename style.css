@@ -1,126 +1,120 @@
-	body {
-		max-width: 1000px;
-		margin: 0 auto;
-		font-family: sans-serif;
-	}
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
 
-	h2 {
-		width: 100%;
-		text-align: center;
-		margin-bottom: 20px;
-	}
+h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-	.button-box {
-		width: 100%;
-		height: auto;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+.button-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-	.sections {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 10px;
-		margin-bottom: 40px;
-	}
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
 
-	.websites {
-		width: 300px;
-		height: 200px;
-		border: 1px solid black;
-		cursor: pointer;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-color: #f8f8f8;
-		transition: transform 0.2s ease;
-	}
+.websites {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  transition: transform 0.2s ease;
+}
 
-	.websites:hover {
-		transform: scale(1.02);
-	}
+.websites:hover {
+  transform: scale(1.02);
+}
 
-	/* Preview Auto Scroll Cards */
+/* Preview Auto Scroll Cards */
 
-	    .preview-card {
-	      width: 150px;
-	      height: 100%;
-	      overflow: hidden;
-	      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-	      border: 1px solid #ddd;
-	      background: #fff;
-	      position: relative;
-	      cursor: pointer;
-	      display: flex;
-	      justify-content: center;
-	    }
+.preview-card {
+  width: 150px;
+  height: 200px; /* fixed height to create scroll area */
+  overflow: auto; /* enable vertical scrolling inside */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  scroll-behavior: smooth; /* smooth scrolling */
+  scrollbar-width: none; /* hide scrollbar Firefox */
+  -ms-overflow-style: none; /* hide scrollbar IE, Edge */
+}
 
-	    .template-preview {
-	      width: 120px;
-	      height: 100%; /* The full length of the landing page */
-	      overflow: hidden;
-	      position: absolute;
-	      top: 0;
-	      /** transition: transform 5s ease-out 1s; /* Slower and smoother transition */ 
-	    }
+.preview-card::-webkit-scrollbar {
+  display: none; /* hide scrollbar Chrome, Safari, Opera */
+}
 
-	    .preview-card .template-preview {
-	      transition: transform 5s ease-out; /* smooth return with no delay */
-	    }
-	    
-	    .preview-card:hover .template-preview {
-	      transform: translateY(-500px); /* Moves up with a slower effect */
-	      transition: transform 5s ease-out 1s; /* 1s delay only on hover in */
-	    }
+.template-preview {
+  width: 120px;
+  height: 600px; /* taller than container to enable scroll */
+  border: none;
+  display: block;
+  pointer-events: none; /* disable interactions if you want */
+}
 
-	iframe {
-	  all: unset;
-	  display: block;
-	  width: 111px;
-	  height: 100%;
-	  border: none;
-	}
+/* Remove old hover transform to prevent moving iframe */
+.preview-card:hover .template-preview {
+  transform: none !important;
+  transition: none !important;
+}
 
+/* Modal styles */
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+}
 
-	/* Modal styles */
-	#modal {
-		display: none;
-		position: fixed;
-		z-index: 1000;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0, 0, 0, 0.8);
-		align-items: center;
-		justify-content: center;
-	}
+#modal-content {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
-	#modal-content {
-		position: relative;
-		width: 80%;
-		height: 80%;
-		background-color: white;
-		padding: 10px;
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	}
+#modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
-	#modal iframe {
-		width: 100%;
-		height: 100%;
-		border: none;
-	}
-
-	#close-btn {
-		position: absolute;
-		top: 10px;
-		right: 10px;
-		background: red;
-		color: white;
-		border: none;
-		padding: 5px 10px;
-		cursor: pointer;
-		font-weight: bold;
-	}
+#close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
