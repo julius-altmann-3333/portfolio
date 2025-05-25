@@ -45,8 +45,8 @@
 	/* Preview Auto Scroll Cards */
 
 	    .preview-card {
-	      width: auto;
-	      height: 500px;
+	      width: 100%;
+	      height: 100%;
 	      overflow: hidden;
 	      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 	      border: 1px solid #ddd;
@@ -59,7 +59,7 @@
 
 	    .template-preview {
 	      width: 100%;
-	      height: 1000px; /* The full length of the landing page */
+	      height: 100%; /* The full length of the landing page */
 	      overflow: hidden;
 	      position: absolute;
 	      top: 0;
