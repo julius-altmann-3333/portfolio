@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="https://julius-altmann-3333.github.io/portfolio/style.css">
+	<script src="https://julius-altmann-3333.github.io/portfolio/main.js"></script>
 
+</head>
+<body>
+
+	<section class="sections" id="cars">
+		<h2>Cars</h2>
+		<div class="websites" onclick="openModal('https://julius-altmann-3333.github.io/bentley-flying-spur/index.html')">Bentley Flying Spur</div>
+		<div class="websites" onclick="openModal('https://example.com/car2')">Placeholder Car 2</div>
+		<div class="websites" onclick="openModal('https://example.com/car3')">Placeholder Car 3</div>
+		<div class="websites" onclick="openModal('https://example.com/car4')">Placeholder Car 4</div>
+		<div class="websites" onclick="openModal('https://example.com/car5')">Placeholder Car 5</div>
+		<div class="websites" onclick="openModal('https://example.com/car6')">Placeholder Car 6</div>
+		<div class="websites" onclick="openModal('https://example.com/car7')">Placeholder Car 7</div>
+	</section>
+
+	<section class="sections" id="real-estate">
+		<h2>Real Estate</h2>
+		<div class="websites" onclick="openModal('https://example.com/villa')">Modern Villa</div>
+		<div class="websites" onclick="openModal('https://example.com/house2')">Placeholder House 2</div>
+		<div class="websites" onclick="openModal('https://example.com/house3')">Placeholder House 3</div>
+		<div class="websites" onclick="openModal('https://example.com/house4')">Placeholder House 4</div>
+		<div class="websites" onclick="openModal('https://example.com/house5')">Placeholder House 5</div>
+		<div class="websites" onclick="openModal('https://example.com/house6')">Placeholder House 6</div>
+		<div class="websites" onclick="openModal('https://example.com/house7')">Placeholder House 7</div>
+	</section>
+
+	<!-- Modal -->
+	<div id="modal">
+		<div id="modal-content">
+			<button id="close-btn" onclick="closeModal()">X</button>
+			<iframe id="modal-iframe" src=""></iframe>
+		</div>
+	</div>
+
+</body>
+</html>
