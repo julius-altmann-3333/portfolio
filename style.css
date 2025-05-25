@@ -37,9 +37,58 @@
 		background-color: #f8f8f8;
 		transition: transform 0.2s ease;
 	}
+
 	.websites:hover {
 		transform: scale(1.02);
 	}
+
+	/* Preview Auto Scroll Cards */
+
+	.preview-card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Live preview iframe inside preview card */
+.preview-card .template-preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px; /* enough to scroll */
+  border: none;
+  pointer-events: none; /* allow hover and click passthrough */
+  transition: transform 5s ease-out;
+}
+
+/* Scroll preview on hover */
+.preview-card:hover .template-preview {
+  transform: translateY(-600px);
+}
+
+/* Label overlay inside preview cards only */
+.preview-card .websites {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  padding: 8px 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
 
 	/* Modal styles */
 	#modal {
