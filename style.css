@@ -43,7 +43,7 @@ h2 {
 }
 
 /* Preview Auto Scroll Cards */
-
+/**
 .preview-card {
       width: 300px;
       height: 200px;
@@ -99,7 +99,7 @@ h2 {
         height: 400px;
       }
     }
-
+**/
 /* Modal styles */
 #modal {
   display: none;
