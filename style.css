@@ -60,7 +60,7 @@ h2 {
 
     .template-preview {
       width: 100%;
-      height: 1000px; /* The full length of the landing page */
+      height: auto; /* The full length of the landing page */
       overflow: hidden;
       position: absolute;
       top: 0;
