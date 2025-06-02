@@ -36,6 +36,9 @@ h2 {
   justify-content: center;
   background-color: #f8f8f8;
   transition: transform 0.2s ease;
+}
+
+.silver-spur {
   background-image: url('https://julius-altmann-3333.github.io/golden-silver-spur/restomod-golden-silver-spur.jpg'); 
   background-size: cover; 
   background-position: center; 
@@ -43,9 +46,7 @@ h2 {
   align-items: end; 
   padding: 10px; 
   font-weight: bold;
-}
-
-            
+}            
 
 .websites:hover {
   transform: scale(1.02);
