@@ -48,6 +48,17 @@ h2 {
   font-weight: bold;
 }  
 
+.488-gtb {
+  background-image: url('https://julius-altmann-3333.github.io/website-images/488 GTB (1).jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  color: white; 
+  align-items: end; 
+  padding: 10px; 
+  font-weight: bold;
+}  
+
+
 .platform-asset-trades,
 .platform-altmann-investments,
 .flying-spur,
@@ -243,13 +254,9 @@ h2 {
   background-image: url('https://example.com/images/cars-main.jpg');
 }
 
-.488-gtb {
-  background-image: url('https://julius-altmann-3333.github.io/website-images/488 GTB (1).jpg');
-}
 
-.silver-spur {
-  background-image: url('https://julius-altmann-3333.github.io/golden-silver-spur/restomod-golden-silver-spur.jpg');
-}
+
+
 
 .car-sales {
   background-image: url('https://example.com/images/car-sales.jpg');
