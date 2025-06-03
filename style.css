@@ -46,7 +46,483 @@ h2 {
   align-items: end; 
   padding: 10px; 
   font-weight: bold;
-}            
+}  
+
+.platform-asset-trades,
+.platform-altmann-investments,
+.flying-spur,
+.escalade,
+.car-trades,
+.hauler-truck,
+.cars-main,
+.488-gtb,
+.silver-spur,
+.car-sales,
+.real-estate-one,
+.pyramid-estates,
+.fix-and-flip-real-estate,
+.real-estate-hedge-funds,
+.real-estate-main,
+.europe,
+.north-america,
+.south-america,
+.africa,
+.asia,
+.oceania,
+.m&a-hedge-funds,
+.medical-one,
+.water,
+.industries,
+.volksflugscheibe,
+.vertical-farms,
+.affiliate-signups,
+.app-downloads,
+.audience-engagement,
+.b2b-demo,
+.booking-reservation,
+.brand-awareness,
+.career-application,
+.charity-donation,
+.community-forum,
+.community-signup,
+.content-downloads,
+.coupon-offers,
+.downloadable-tools,
+.event-registration,
+.free-consultation,
+.job-application,
+.lead-generation,
+.local-business-signup,
+.loyalty-program,
+.membership-signup,
+.newsletter-subscription,
+.partnership-affiliate,
+.prelaunch-waitlist,
+.preorder,
+.product-demo,
+.product-launch,
+.product-sales,
+.referral-program,
+.reservation-booking,
+.subscription-box,
+.survey-or-market-research,
+.testimonials-reviews,
+.trial-sign-ups,
+.user-test-signup,
+.video-sales,
+.buy-and-hold-investors,
+.commercial-real-estate-investors,
+.downsizers-empty-nesters,
+.first-time-buyers,
+.fix-and-flip-investors,
+.landing-pages-real-estate,
+.luxury-buyers,
+.move-up-buyers,
+.multifamily-real-estate-investors,
+.multigenerational-buyers,
+.real-estate-development-investors,
+.short-term-rental-investors-airbnb-vacation,
+.student-housing-investors,
+.vacation-home-buyers,
+.vacation-property-investors {
+  /* Add your shared styles here */
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.platform-asset-trades:hover,
+.platform-altmann-investments:hover,
+.flying-spur:hover,
+.escalade:hover,
+.car-trades:hover,
+.hauler-truck:hover,
+.cars-main:hover,
+.488-gtb:hover,
+.silver-spur:hover,
+.car-sales:hover,
+.real-estate-one:hover,
+.pyramid-estates:hover,
+.fix-and-flip-real-estate:hover,
+.real-estate-hedge-funds:hover,
+.real-estate-main:hover,
+.europe:hover,
+.north-america:hover,
+.south-america:hover,
+.africa:hover,
+.asia:hover,
+.oceania:hover,
+.m&a-hedge-funds:hover,
+.medical-one:hover,
+.water:hover,
+.industries:hover,
+.volksflugscheibe:hover,
+.vertical-farms:hover,
+.affiliate-signups:hover,
+.app-downloads:hover,
+.audience-engagement:hover,
+.b2b-demo:hover,
+.booking-reservation:hover,
+.brand-awareness:hover,
+.career-application:hover,
+.charity-donation:hover,
+.community-forum:hover,
+.community-signup:hover,
+.content-downloads:hover,
+.coupon-offers:hover,
+.downloadable-tools:hover,
+.event-registration:hover,
+.free-consultation:hover,
+.job-application:hover,
+.lead-generation:hover,
+.local-business-signup:hover,
+.loyalty-program:hover,
+.membership-signup:hover,
+.newsletter-subscription:hover,
+.partnership-affiliate:hover,
+.prelaunch-waitlist:hover,
+.preorder:hover,
+.product-demo:hover,
+.product-launch:hover,
+.product-sales:hover,
+.referral-program:hover,
+.reservation-booking:hover,
+.subscription-box:hover,
+.survey-or-market-research:hover,
+.testimonials-reviews:hover,
+.trial-sign-ups:hover,
+.user-test-signup:hover,
+.video-sales:hover,
+.buy-and-hold-investors:hover,
+.commercial-real-estate-investors:hover,
+.downsizers-empty-nesters:hover,
+.first-time-buyers:hover,
+.fix-and-flip-investors:hover,
+.landing-pages-real-estate:hover,
+.luxury-buyers:hover,
+.move-up-buyers:hover,
+.multifamily-real-estate-investors:hover,
+.multigenerational-buyers:hover,
+.real-estate-development-investors:hover,
+.short-term-rental-investors-airbnb-vacation:hover,
+.student-housing-investors:hover,
+.vacation-home-buyers:hover,
+.vacation-property-investors:hover {
+  background-color: #e0e0e0;
+}
+
+.platform-asset-trades {
+  background-image: url('https://example.com/images/platform-asset-trades.jpg');
+}
+
+.platform-altmann-investments {
+  background-image: url('https://example.com/images/platform-altmann-investments.jpg');
+}
+
+.flying-spur {
+  background-image: url('https://example.com/images/flying-spur.jpg');
+}
+
+.escalade {
+  background-image: url('https://example.com/images/escalade.jpg');
+}
+
+.car-trades {
+  background-image: url('https://example.com/images/car-trades.jpg');
+}
+
+.hauler-truck {
+  background-image: url('https://example.com/images/hauler-truck.jpg');
+}
+
+.cars-main {
+  background-image: url('https://example.com/images/cars-main.jpg');
+}
+
+.488-gtb {
+  background-image: url('https://example.com/images/488-gtb.jpg');
+}
+
+.silver-spur {
+  background-image: url('https://julius-altmann-3333.github.io/golden-silver-spur/restomod-golden-silver-spur.jpg');
+}
+
+.car-sales {
+  background-image: url('https://example.com/images/car-sales.jpg');
+}
+
+.real-estate-one {
+  background-image: url('https://example.com/images/real-estate-one.jpg');
+}
+
+.pyramid-estates {
+  background-image: url('https://example.com/images/pyramid-estates.jpg');
+}
+
+.fix-and-flip-real-estate {
+  background-image: url('https://example.com/images/fix-and-flip-real-estate.jpg');
+}
+
+.real-estate-hedge-funds {
+  background-image: url('https://example.com/images/real-estate-hedge-funds.jpg');
+}
+
+.real-estate-main {
+  background-image: url('https://example.com/images/real-estate-main.jpg');
+}
+
+.europe {
+  background-image: url('https://example.com/images/europe.jpg');
+}
+
+.north-america {
+  background-image: url('https://example.com/images/north-america.jpg');
+}
+
+.south-america {
+  background-image: url('https://example.com/images/south-america.jpg');
+}
+
+.africa {
+  background-image: url('https://example.com/images/africa.jpg');
+}
+
+.asia {
+  background-image: url('https://example.com/images/asia.jpg');
+}
+
+.oceania {
+  background-image: url('https://example.com/images/oceania.jpg');
+}
+
+.m&a-hedge-funds {
+  background-image: url('https://example.com/images/m&a-hedge-funds.jpg');
+}
+
+.medical-one {
+  background-image: url('https://example.com/images/medical-one.jpg');
+}
+
+.water {
+  background-image: url('https://example.com/images/water.jpg');
+}
+
+.industries {
+  background-image: url('https://example.com/images/industries.jpg');
+}
+
+.volksflugscheibe {
+  background-image: url('https://example.com/images/volksflugscheibe.jpg');
+}
+
+.vertical-farms {
+  background-image: url('https://example.com/images/vertical-farms.jpg');
+}
+
+.affiliate-signups {
+  background-image: url('https://example.com/images/affiliate-signups.jpg');
+}
+
+.app-downloads {
+  background-image: url('https://example.com/images/app-downloads.jpg');
+}
+
+.audience-engagement {
+  background-image: url('https://example.com/images/audience-engagement.jpg');
+}
+
+.b2b-demo {
+  background-image: url('https://example.com/images/b2b-demo.jpg');
+}
+
+.booking-reservation {
+  background-image: url('https://example.com/images/booking-reservation.jpg');
+}
+
+.brand-awareness {
+  background-image: url('https://example.com/images/brand-awareness.jpg');
+}
+
+.career-application {
+  background-image: url('https://example.com/images/career-application.jpg');
+}
+
+.charity-donation {
+  background-image: url('https://example.com/images/charity-donation.jpg');
+}
+
+.community-forum {
+  background-image: url('https://example.com/images/community-forum.jpg');
+}
+
+.community-signup {
+  background-image: url('https://example.com/images/community-signup.jpg');
+}
+
+.content-downloads {
+  background-image: url('https://example.com/images/content-downloads.jpg');
+}
+
+.coupon-offers {
+  background-image: url('https://example.com/images/coupon-offers.jpg');
+}
+
+.downloadable-tools {
+  background-image: url('https://example.com/images/downloadable-tools.jpg');
+}
+
+.event-registration {
+  background-image: url('https://example.com/images/event-registration.jpg');
+}
+
+.free-consultation {
+  background-image: url('https://example.com/images/free-consultation.jpg');
+}
+
+.job-application {
+  background-image: url('https://example.com/images/job-application.jpg');
+}
+
+.lead-generation {
+  background-image: url('https://example.com/images/lead-generation.jpg');
+}
+
+.local-business-signup {
+  background-image: url('https://example.com/images/local-business-signup.jpg');
+}
+
+.loyalty-program {
+  background-image: url('https://example.com/images/loyalty-program.jpg');
+}
+
+.membership-signup {
+  background-image: url('https://example.com/images/membership-signup.jpg');
+}
+
+.newsletter-subscription {
+  background-image: url('https://example.com/images/newsletter-subscription.jpg');
+}
+
+.partnership-affiliate {
+  background-image: url('https://example.com/images/partnership-affiliate.jpg');
+}
+
+.prelaunch-waitlist {
+  background-image: url('https://example.com/images/prelaunch-waitlist.jpg');
+}
+
+.preorder {
+  background-image: url('https://example.com/images/preorder.jpg');
+}
+
+.product-demo {
+  background-image: url('https://example.com/images/product-demo.jpg');
+}
+
+.product-launch {
+  background-image: url('https://example.com/images/product-launch.jpg');
+}
+
+.product-sales {
+  background-image: url('https://example.com/images/product-sales.jpg');
+}
+
+.referral-program {
+  background-image: url('https://example.com/images/referral-program.jpg');
+}
+
+.reservation-booking {
+  background-image: url('https://example.com/images/reservation-booking.jpg');
+}
+
+.subscription-box {
+  background-image: url('https://example.com/images/subscription-box.jpg');
+}
+
+.survey-or-market-research {
+  background-image: url('https://example.com/images/survey-or-market-research.jpg');
+}
+
+.testimonials-reviews {
+  background-image: url('https://example.com/images/testimonials-reviews.jpg');
+}
+
+.trial-sign-ups {
+  background-image: url('https://example.com/images/trial-sign-ups.jpg');
+}
+
+.user-test-signup {
+  background-image: url('https://example.com/images/user-test-signup.jpg');
+}
+
+.video-sales {
+  background-image: url('https://example.com/images/video-sales.jpg');
+}
+
+.buy-and-hold-investors {
+  background-image: url('https://example.com/images/buy-and-hold-investors.jpg');
+}
+
+.commercial-real-estate-investors {
+  background-image: url('https://example.com/images/commercial-real-estate-investors.jpg');
+}
+
+.downsizers-empty-nesters {
+  background-image: url('https://example.com/images/downsizers-empty-nesters.jpg');
+}
+
+.first-time-buyers {
+  background-image: url('https://example.com/images/first-time-buyers.jpg');
+}
+
+.fix-and-flip-investors {
+  background-image: url('https://example.com/images/fix-and-flip-investors.jpg');
+}
+
+.landing-pages-real-estate {
+  background-image: url('https://example.com/images/landing-pages-real-estate.jpg');
+}
+
+.luxury-buyers {
+  background-image: url('https://example.com/images/luxury-buyers.jpg');
+}
+
+.move-up-buyers {
+  background-image: url('https://example.com/images/move-up-buyers.jpg');
+}
+
+.multifamily-real-estate-investors {
+  background-image: url('https://example.com/images/multifamily-real-estate-investors.jpg');
+}
+
+.multigenerational-buyers {
+  background-image: url('https://example.com/images/multigenerational-buyers.jpg');
+}
+
+.real-estate-development-investors {
+  background-image: url('https://example.com/images/real-estate-development-investors.jpg');
+}
+
+.short-term-rental-investors-airbnb-vacation {
+  background-image: url('https://example.com/images/short-term-rental-investors-airbnb-vacation.jpg');
+}
+
+.student-housing-investors {
+  background-image: url('https://example.com/images/student-housing-investors.jpg');
+}
+
+.vacation-home-buyers {
+  background-image: url('https://example.com/images/vacation-home-buyers.jpg');
+}
+
+.vacation-property-investors {
+  background-image: url('https://example.com/images/vacation-property-investors.jpg');
+}
+
 
 .websites:hover {
   transform: scale(1.02);
